@@ -12,3 +12,4 @@ _In a growth mindset, people believe that their most basic abilities can be deve
 
 > ## You’re in charge of your mind. You can help it grow by using it in the right way.
 
+<br> My name is Hiba you can contact with me on [linkedin](https://www.linkedin.com/in/hiba-j-salem/) !
