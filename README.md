@@ -2,7 +2,7 @@
 notes about growth mindset
 # Growth mindset
 #### **The growth mindset can open pathways to more creativity and possibility.**
-_In a growth mindset, people believe that their most basic abilities can be developed through dedication and hard work <br> brains and talent are just the starting point._
+_In a growth mindset, people believe that their most basic abilities can be developed through dedication and hard work brains and talent are just the starting point. <br> This view creates a love of learning and a resilience that is essential for great accomplishment._
 
 #### Things to remember  
 * Always remember that practice makes perfect!
