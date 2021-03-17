@@ -7,12 +7,12 @@ also we should think about making it attractive and more professional .
 ### Site maps
 
 create a tree diagram of the pages that will be used to structure the site , it will show how those pages can be grouped. 
-example (photo) 
+example ![photo](https://www.webolto.com/wp-content/uploads/2019/06/image-tree.png)
 
 
 ### Wire frames
 simple sketch of the key information that needs to go on each page 
-example (photo)
+example ![photo](https://file.mockplus.com/image/2017/11/e8bbb60f-f2da-49cf-9c3b-64dbefe77b27.png)
 
 Getting your message across using design
 the design should be helpfull for understand its importance and what order to read it in.
