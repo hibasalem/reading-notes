@@ -5,7 +5,7 @@ My name is Hiba Salem, I am 24 years old and I am an architect who is excited to
 
 ### Table of Contents
 | Syntax        | Description                            |
-| -------------------------------------------------------|
+| --------------|----------------------------------------|
 | Read 01       | [The Coder's Computer](read01.md)      |
 | Read 02a      | [Learning Markdown](read02a.md)        |
 | Read 02b      | [Revisions and the Cloud](read02.md)   |
