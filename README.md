@@ -13,3 +13,4 @@ My name is Hiba Salem, I am 24 years old and I am an architect who is excited to
 | Read 03           | [Duckett: HTML & CSS](read03.md)                 |
 | Read 04a          | [Programming with JavaScript](read04a.md)        |
 | Read 05           | [Operators and Loops](read05.md)                 |
+| Read 06           | [Design web pages with CSS](read06.md)           |
