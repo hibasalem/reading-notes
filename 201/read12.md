@@ -1,0 +1,1 @@
+# Read: 12 - Docs for the HTML <canvas> Element & Chart.js
