@@ -45,10 +45,10 @@ There are some characters that are used in and reserved by HTML code. (For examp
 
 ### CH 17 HTML5 Layout
 
-For a long time, web page authors used  &lt;div> elements to group together related elements on the page.
-HTML5 introduces a new set of elements that allow you to divide up the parts of a page such as The  &lt;header>  &lt;footer>  &lt;nav> &lt;section> &lt;aside> &lt;article> &lt;hgroup> &lt;div>
-The new elements provide clearer code.
-To make HTML5 elements work in older versions of IE extra JavaScript is needed.
+For a long time, web page authors used  &lt;div> elements to group together related elements on the page.  
+HTML5 introduces a new set of elements that allow you to divide up the parts of a page such as The  &lt;header>  &lt;footer>  &lt;nav> &lt;section> &lt;aside> &lt;article> &lt;hgroup> &lt;div>  
+The new elements provide clearer code.  
+To make HTML5 elements work in older versions of IE extra JavaScript is needed.  
 
 ### CH 18 Process and Design users 
 
