@@ -5,13 +5,11 @@
 ### Introduction
  
 ***different ways people access the web*** :Browsers(Firefox, Internet Explorer,Chrome...), Web Servers(which hosts the website),Screen readers(are programs that read out the contents of acomputer screen to a user).
-the web server hosting that site could be anywhere in the world. In order for us to find the location of the web server, our browser will connect to a Domain Name System (DNS) server.
-1- When we connect to the web, you do so via an Internet Service Provider (ISP).
-2- the computer contacts a network of servers called Domain Name System (DNS)
-servers
-3- The unique number that the DNS server returns to our computer allows the browser
-to contact the web server that hosts the website 
-4- The web server then sends the page you requested back to your web browser.
+the web server hosting that site could be anywhere in the world. In order for us to find the location of the web server, our browser will connect to a Domain Name System (DNS) server.  
+1- When we connect to the web, you do so via an Internet Service Provider (ISP).  
+2- the computer contacts a network of servers called Domain Name System (DNS)servers   
+3- The unique number that the DNS server returns to our computer allows the browser to contact the web server that hosts the website   
+4- The web server then sends the page you requested back to your web browser.  
 
 ***How websites are created*** all websites use HTML and CSS and add a few more technologies
 
@@ -49,17 +47,15 @@ There are some characters that are used in and reserved by HTML code. (For examp
 
 For a long time, web page authors used  &lt;div> elements to group together related elements on the page.
 HTML5 introduces a new set of elements that allow you to divide up the parts of a page such as The  &lt;header>  &lt;footer>  &lt;nav> &lt;section> &lt;aside> &lt;article> &lt;hgroup> &lt;div>
-The new elements provide clearer code (compared with using multiple <div> elements).
-To make HTML5 elements work in Internet Explorer 8 (and older versions of IE), extra JavaScript is needed.
+The new elements provide clearer code.
+To make HTML5 elements work in older versions of IE extra JavaScript is needed.
 
 ### CH 18 Process and Design users 
 
-in the design prosess we should thing about the target users ,thier needs , what they want to see and why they are here .
-we need to know more about them (age gender location occupation income...).
-also we should think about making it attractive and more professional .
-Site maps
+in the design prosess we should think about the target users ,thier needs , what they want to see and why they are here and we need to know more about them (age gender location occupation income...). also we should think about making it attractive and more professional .
+##### Site maps
 create a tree diagram of the pages that will be used to structure the site , it will show how those pages can be grouped. 
-Wire frames
+##### Wire frames
 simple sketch of the key information that needs to go on each page 
 
 Getting your message across using design the design should be helpfull for understand its importance and what order to read it in.
