@@ -40,7 +40,7 @@ CSS works by associating rules with HTML elements , A CSS rule contains two part
 CSS can be External, Internal or inline   
 ***types of Selector***
 Different types of selectors allow us to target different elements.  
-![types of Selector](201\selectors.jpg)
+![types of Selector](201/selectors.jpg)
 
 - - - 
 #### From the Duckett JS book
