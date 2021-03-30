@@ -4,6 +4,7 @@ My name is Hiba Salem, I am 24 years old and I am an architect who is excited to
 > ## **Reading notes**
 
 ### ***Code 102 Reading Notes***
+
 | Syntax            | Description                                          |
 | --------------    |----------------------------------------              |
 | Read 01           | [The Coder's Computer](102/read01.md)                |
@@ -14,8 +15,10 @@ My name is Hiba Salem, I am 24 years old and I am an architect who is excited to
 | Read 04a          | [Programming with JavaScript](102/read04a.md)        |
 | Read 05           | [Operators and Loops](102/read05.md)                 |
 | Read 06           | [Design web pages with CSS](102/read06.md)           |
+
 - - -
 ### ***Code 102 Reading Notes***
+
 | Syntax            | Description                                                                      |
 | --------------    |----------------------------------------                                          |
 | Read 01           | [Introductory HTML and JavaScript](201\read01.md)                                |
