@@ -55,7 +55,7 @@ It is important to ensure that there is enough contrast between any text and the
 * ***Every letter*** in a monospace (or fixed-width) font is the same width. (Non-monospace fonts have different widths.)
 
 other caricters :   
-![others](https://github.com/hibasalem/reading-notes/blob/main/201/others.JPG)   
+![others](others.JPG)   
 
 The ***font-family*** property  allows you to specify thetypeface that should be used for any text inside the elements towhich a CSS rule applies.    
 
