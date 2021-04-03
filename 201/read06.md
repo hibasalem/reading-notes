@@ -32,7 +32,7 @@ we can a access properties and methods of an object using dot notation  , the pr
 it is neither part of HTML, nor part of JavaScript; it is a separate set of rules.
 It is implemented by all major browser makers, and covers two primary areas:making a model of the HTML page, accessing and changing the HTML page 
 
-[DOM tree ](tree.JPG)
+![DOM tree ](tree.JPG)
 
 ### types of nodes:   
 * document nodes.
