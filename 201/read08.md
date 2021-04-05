@@ -1,6 +1,4 @@
 # ***Read:08 - More CSS Layout***
-
-- - -  
 #### From the Duckett HTML book
 - - -
 
