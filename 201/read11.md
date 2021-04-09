@@ -1,3 +1,6 @@
+# ***Read: 11 - Assorted Topics***
+- - - 
+#### From the Duckett HTML book:
 - - -
 ## Chapter 16: Images
 
