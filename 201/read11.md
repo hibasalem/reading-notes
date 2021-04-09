@@ -7,8 +7,8 @@
 
 ### size and alignment
  
-* we can specify the ***size*** by using weidth and hight proparites 
-* and ***alignment*** by using float and margin and align proparites 
+* we can specify the ***size*** by using weidth and hight properties 
+* and ***alignment*** by using float and margin and align properties 
 
 ### background images
 
