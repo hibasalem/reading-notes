@@ -1,3 +1,44 @@
+# ***Read: 12 - Docs for the HTML <canvas> Element & Chart.js***
+- - - 
+## easily create stunning animated charts with chart.js
+
+ ***Chart.js***  is a JavaScript plugin that uses HTML5’s canvas element to draw the graph onto the page that makes all kinds of bar charts .    
+
+to ***set it up*** we need to download Chart.js. and Copy the Chart.min.js  into the directory we will be working in , then link this in the html &lt;script src='Chart.min.js'> &lt;/script>
+ 
+we can use it to ***draw aline chart , a pie chart and a bar chart***
+
+##### for a line chart    
+html  &lt;canvas id="buyers" width="600" height="400"> &lt;/canvas>    
+js &lt;script>    
+    var buyers = document.getElementById('buyers').getContext('2d');   
+    new Chart(buyers).Line(buyerData);    
+&lt;/script>   
+
+for the data we use  a constroctor function and an arry to store the data in , and there i a group of style options to use    
+
+##### for a bar chart 
+html &lt;canvas id="income" width="600" height="400"> &lt;/canvas>    
+js  var income = document.getElementById("income").getContext("2d");    
+new Chart(income).Bar(barData);    
+then the array and constractour function and styling     
+
+##### for a pie chart 
+the same way with the html &lt;canvas id="countries" width="600" height="400"> &lt;/canvas>     
+js   var countries= document.getElementById("countries").getContext("2d");   
+new Chart(countries).Pie(pieData, pieOptions);       
+
+for the data we just need to supply a value and a color for each section   
+then      
+var pieOptions = {   
+	segmentShowStroke : false,   
+	animateScale : true   
+}   
+- - - 
+#### articles on the Canvas API.
+- - - 
+## Basic usage of canvas
+
 > The &lt;canvas> element creates a fixed-size drawing surface that exposes one or more rendering contexts, which are used to create and manipulate the content shown , The canvas is initially blank. To display something, a script first needs to access the rendering context and draw on it. 
 we usully will use DOM with it    
 
