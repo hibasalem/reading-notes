@@ -45,4 +45,15 @@ or Instead of writing this function yourself, you can use Modernizr to detect su
 * The storage event is fired on the window object whenever setItem(), removeItem(), or clear() is called and actually changes something.
 * The storage event is supported everywhere the localStorage object is supported
 
+* ***StorageEvent object*** has the following useful properties
+
+	 * key (string) the named key that was added, removed, or modified   
+	 * oldValue (any) the previous value (now overwritten), or null if a new item was added  
+	 * newValue(any)	the new value, or null if an item was removed  
+ 	* url(string)the page which called a method that triggered this change  
+
+* The storage event is not cancelable
+
+
+
 
