@@ -38,6 +38,7 @@ My name is Hiba Salem, I am 24 years old architect who is excited to do a career
 | Read 13b          | [CSS Transforms, Transitions, and Animations](201/read13b.md)                    |
 | Read 14           | [What Google Learned About Teams](201/read14.md)                                 |
 
+- - -
 ## ***Code 301 - Intermediate Software Development***
 
 | Syntax            | Description                                                         |
@@ -58,4 +59,5 @@ My name is Hiba Salem, I am 24 years old architect who is excited to do a career
 | Read 14           | [Diversity & Inclusion in the Tech Industry](301/read14.md)         |
 | Read 15           | [Project Kickoff](301/read15.md)                                    |
 
+- - -
 ## ***Code 401 - Advanced Software Development***
