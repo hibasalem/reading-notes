@@ -1,9 +1,10 @@
-> ## **Intro** 
-My name is Hiba Salem, I am 24 years old and I am an architect who is excited to do a career shift!
-- - -
-> ## **Reading notes**
+> # **Reading notes**
 
-### ***Code 102 Reading Notes***
+> ## **Intro** 
+My name is Hiba Salem, I am 24 years old architect who is excited to do a career shift!
+- - -
+
+## ***Code 102 Reading Notes***
 
 | Syntax            | Description                                          |
 | --------------    |----------------------------------------              |
@@ -17,7 +18,7 @@ My name is Hiba Salem, I am 24 years old and I am an architect who is excited to
 | Read 06           | [Design web pages with CSS](102/read06.md)           |
 
 - - -
-### ***Code 102 Reading Notes***
+## ***Code 102 Reading Notes***
 
 | Syntax            | Description                                                                      |
 | --------------    |----------------------------------------                                          |
@@ -35,5 +36,26 @@ My name is Hiba Salem, I am 24 years old and I am an architect who is excited to
 | Read 12           | [Docs for the HTML <\canvas> Element & Chart.js](201/read12.md)                  |
 | Read 13           | [Local Storage](201/read13.md)                                                   |
 | Read 13b          | [CSS Transforms, Transitions, and Animations](201/read13b.md)                    |
-| Read 14           | [What Google Learned About Teams](201/read14.md)                                |
+| Read 14           | [What Google Learned About Teams](201/read14.md)                                 |
 
+## ***Code 301 - Intermediate Software Development***
+
+| Syntax            | Description                                                         |
+| --------------    |----------------------------------------                             |
+| Read 01           | [Introduction to React and Components](301/read01.md)               |
+| Read 02           | [State and Props](301/read02.md)                                    |
+| Read 03           | [Passing Functions as Props](301/read03.md)                         |
+| Read 04           | [React and Forms](301/read04.md)                                    |
+| Read 05           | [Putting it all together](301/read05.md)                            |
+| Read 06           | [NODE.JS](301/read06.md)                                            |
+| Read 07           | [REST](301/read07.md)                                               |
+| Read 08           | [APIs](301/read08.md)                                               |
+| Read 09           | [FUNCTIONAL PROGRAMMING](301/read09.md)                             |
+| Read 10           | [In memory storage](301/read10.md)                                  |
+| Read 11           | [Authentication](301/read11.md)                                     |
+| Read 12           | [Mongo and Mongoose](301/read12.md)                                 |
+| Read 13           | [CRUD](301/read13.md)                                               |
+| Read 14           | [Diversity & Inclusion in the Tech Industry](301/read14.md)         |
+| Read 15           | [Project Kickoff](301/read15.md)                                    |
+
+## ***Code 401 - Advanced Software Development***
