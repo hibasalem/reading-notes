@@ -1,54 +1,52 @@
-# Read: Class 02 : State and Props
+# Read: Class 03 :  Passing Functions as Props
 
 - - - 
-
-## Article : React lifecycle
-   
-* Based off the diagram, what happens first, the ‘render’ or the ‘componentDidMount’?   
-    
-  ‘render’    
-    
-* What is the very first thing to happen in the lifecycle of React?    
-    
-  Mounting   
       
-* Put the following things in the order that they happen: componentDidMount, render, constructor, componentWillUnmount, React Updates    
+## Article : Component-Based Architecture
    
-  1 constructor     
-  2 render    
-  3 componentDidMount     
-  4 React Updates   
-  5 componentWillUnmount     
+* What is a component?
+   
+  > A component is a modular, portable, replaceable, and reusable set of well-defined functionality that encapsulates its implementation and exporting it as a higher-level interface.  
+  > A component is a software object, intended to interact with other components, encapsulating certain functionality or a set of functionalities. It has an obviously defined interface and conforms to a recommended behavior common to all components within an architecture.  
      
-* What does componentDidMount do?   
-    
-  it load anything using a network request or initialize the DOM    
-    
-- - - 
-
-## Video : React State Vs Props     
-    
-* What types of things can you pass in the props?     
+* What are the charactistics of a component?
    
-  the things that you want to initialize the render to or some thing that has a titel and subtitle and would change that doesnt change    
-
-* What is the big difference between props and state?   
+1. Reusability 
+2. Replaceable
+3. Not context specific
+4. Extensible
+5. Encapsulated
+6. Independent
+   
+* What are the advantages of using component based architecture?   
   
-  ***props*** it passes into a component,handeled outside of that component  and must be updatee there    
-  ***state*** is handeled inside of that component and can be updated inside it    
-
-* When do we re-render our application?    
-    
-  when the state changed inside the aplication   
-
-* What are some examples of things that we could store in state?    
+1. Ease of deployment
+2. Reduced cost
+3. Ease of development
+4. Reusable 
+5. Modification of technical complexity
+6. Reliability 
+7. System maintenance and evolution
+8. Independent 
+      
+- - - 
+## Article : What is Props and How to Use it in React
    
-  counter or inside a form for checkbox or input element   
-    
-- - - 
+* What is props short for?
 
-## Things I want to know more about   
+  Props stands for ***properties***
 
-* more about what react can do 
-* 
+* How are props used in React?
+
+ 1. define an attribute and its value(data)
+ 2. pass it to child component(s) by using Props
+ 3. render the Props Data
+
+* What is the flow of props?     
+   
+React's data flow between components is uni-directional (from parent to child only).
+   
+      
 - - - 
+## Things I want to know more about  
+- - -
