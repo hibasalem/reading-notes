@@ -7,7 +7,7 @@
 * ***Describe (in plain English) what Array.map() does***   
 
 
-    The array.map() iterates over an array and runs a call back for each element , The callback receives the value and the index of the array element as a parameter. always return a **new array** of the **same length** as the original array.    
+    The `array.map()` iterates over an array and runs a call back for each element , The callback receives the value and the index of the array element as a parameter. always return a **new array** of the **same length** as the original array.    
 
 * ***Describe (in plain English) what Array.reduce() does***  
  
