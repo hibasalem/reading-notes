@@ -69,6 +69,7 @@
 
 | Syntax  | Description                                   |
 | ------- | --------------------------------------------- |
+| Read 00 | [Pre-Work - Code 401](401/read00.md)          |
 | Read 01 | [Node Ecosystem, TDD, CI/CD](401/read01.md)   |
 | Read 02 | [Express](401/read02.md)                      |
 | Read 03 | [Express REST API](401/read03.md)             |
