@@ -1,67 +1,105 @@
-# ***Read: 02 - HTML Text, CSS Introduction, and Basic JavaScript Instructions***
+# ***Read: 04 - HTML Links, CSS Layout, JS Functions***
 - - - 
 #### From the Duckett HTML book
+- - -
+## Chapter 4: Links  
 
-## Chapter 2: Text 
+links can be created using the &lt;a> element,  inside the opining tag href include the link it self and the name of the linke inside the tag 
 
-### text typs is :  
+### links types (usage): 
+ 
+* Links from one website to another(absolute URL)  
 
-* headings (h1 to h6) 
-* Paragraphs (&lt;p>)    
+* Links from one page to another on the same website(relative URL.)     
+ 
+They provide a shorthand way of telling the browser where to
+find your files   
+1- Same Folder : To link to a file in the same folder, just use the file
+name. (Nothing else is needed.)  
+2- Child Folder : For a child folder, use the name of the child folder,
+followed by a forward slash, then the file name    
+4- Parent Folder : ../    
+5- GrandParent Folder: ../../     
 
-we can make anypart of it ***bold*** by using &lt;b> and ***italic*** by using &lt;i> ***Superscript*** &lt;sup> (for powers) and ***Subscript*** &lt;sub> ( for chemical formulas )    
+* Links from one part of a web page to another part of the same page   
+  
+identify the points in the page that the link will go to. You do this using the id attribute (which can be used on every HTML element).
 
-we should note about ***white space collapsing*** which mean that any number of spaces more  than one is consederd to be one space    
-***lines breaks*** is done by &lt;br /> and ***horizontal lines*** by &lt;hr />
+* Links that open in a new browser window   
+use the target attribute on the opening &lt;a> tag. The value of this attribute should be _blank.   
 
-### Semantic Markup
-this is text elements that are not intended to affect the structure of the web pages they only add extra information to the page 
-***examples***  
-* &lt;strong> indicates that the content has strong importance , the contents of a &lt;strong> will show in bold.
-* &lt;em> indicates emphasis that subtly changes the meaning of a sentence the contents of a &lt;strong> will show in italic.
-### Quotations    
-* &lt;blockquote> used for longer quotes that take up an entire paragraph, the &lt;p> element is still used inside of it . 
-* &lt;q> used for shorter quotes that sit within a paragraph, Browsers are supposed to put quotes around the &lt;q> element.  
-
-Both elements may use the citeattribute to indicate where the quote is from.   
-
-* &lt;abbr> it can be used as a title attribute on the opening tag is used to specify the full term.  
-* &lt;address> is used to containcontact details for the author of the page ,It can contain contain a phone number or email address.  
-* &lt;ins> and &lt;s> line through the center   
-* &lt;del> underline   
-
-- - - 
-## Chapter 10: Introducing CSS  
-
-how CSS works is to like there is an invisible box around every HTML element , CSS allows us to create rules that control the way  each individual box and the contents of that box is presented.   
-there is block and inline elements 
-
-CSS works by associating rules with HTML elements , A CSS rule contains two parts: a selector and a declaration.     
-CSS can be External, Internal or inline   
-***types of Selector***
-Different types of selectors allow us to target different elements.  
-![types of Selector](selectors.JPG)
+* Links that start up your email program and address a new email to someone   
+use the <a> element. the value of the href attribute starts with mailto: and is followed by the email address to be sent to.  
 
 - - - 
-#### From the Duckett JS book
-- - - 
-## Chapter 2: Basic JavaScript Instructions  
-A script is a series of instructions that a computer can follow one-by-one , this is ***statements***.  
-***comments*** to explain what your code does.(it doesnt run) (// or /* ....*/)     
-***variables*** is a thing that we can store information on it.   the information can be changed later   
-***arrays*** it is a special type of variable. It doesn't just store one value; it stores a list of values.   
-***expressions*** evaluate into a single value and rely on operators to calculate a value.
 
-### data types 
-* numbers 
-* string 
-* boolean 
-- - - 
-## Chapter 4: Decisions and Loops
-the code can take more than one path, which means the browser runs different code in different situations  
-so basiclly it evaluate a condition to take a decision  by using expressions and comparison operators(===, ! ==, ==, ! =, <, >, <=, =>) .  
+## Chapter 15: Layout
 
-also it can use the logical operators (&& , || , !) to compare the results of more than one comparison operator.  
+##### Building Blocks 
+* Block-level elements start on a new line examples &lt;h1> &lt;p> &lt;ul> &lt;li> 
+* Inline elements : flow in between surrounding text examples &lt;img> &lt;b> &lt;i>
 
-if / else statements allow us to run one set of code if a condition is true, and another if it is false.
+##### Containing Elements
+ If one block-level element sits inside another block-level element then the outer box is known as the containing or parent element.
+
+### positioning schemes
+
+* Normal flow  
+Every block-level element appears on a new line, causing each item to appear lower down the page than the previous one.  
+
+* Relative Positioning  
+This moves an element from the position it would be in normal flow, shifting it to the top, right,bottom, or left of where it would have been placed.   
+
+* Absolute positioning
+
+This positions the element in relation to its containing element. It is taken out of normal flow, meaning that it does not affect the position   
+
+* Fixed Positioning
+
+This is a form of absolute positioning that positions the element in relation to the browser window ,Browsers display pages in normal flow unless you specify    
+
+* Floating Elements
+this allows us to take that element out of normal flow and position it to the far left or right of a containing box  
+
+
+### Screen Sizes and Resolutions  
+Different users will have different sized screens that show different amounts of information, so the design needs to be able to work on a range of different sized screens. with diffrenet resolutions  
+
+designers often try to create pages of around 960-1000 pixels wide
+
+***Fixed width layout designs*** do not change size as the user increases     ***Liquid layout designs*** stretch and contract as the user increases or decreases the size of their browser window. They tend to use percentages.     
+
+***CSS frameworks*** provide the code for common tasks, such as creating layout grids,styling forms, creating printer-friendly versions of pages and so on.  
+***Grids*** help create professional and flexible designs. 
+
+- - -
+#### From the Duckett JS book:
 - - - 
+## Chapter 3: Functions, Methods, and Objects (pp.86-99)
+
+### functions 
+Functions let you group a series of statements together to perform a specific task.
+we need to declare a function we then call the function   
+***declaration***    
+*function itsName(parameters){   
+the code block 
+return the parameters
+ }   
+
+***calling***
+itsName();   
+
+- - -
+## Article: 6 Reasons for Pair Programming
+
+***Pair programming*** is a technique in which two programmers work together at one workstation.
+the Driver(the one who writes the code ) and the Navigator(reviews each line of code as it is typed in). 
+
+### Why to use this technique ?
+* efficiency 
+* this experience is more engaging and both programmers are more focused 
+* expose developers to techniques they otherwise would not have thought of.
+* improve social skills( communication )
+* Work environment and Job interview readiness
+
+
