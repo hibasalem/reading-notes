@@ -145,8 +145,4 @@ Where possible, the user-supplied password should be compared to the stored pass
 * Consider Strong Transaction Authentication
 Some applications should use a second factor to check whether a user may perform sensitive operations
 
-
-
-- - - 
-## Article : bcrypt docs
-- - - 
+- - -
