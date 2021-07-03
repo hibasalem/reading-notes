@@ -1,106 +1,136 @@
-# ***Read: 04 - HTML Links, CSS Layout, JS Functions***
-- - - 
-#### From the Duckett HTML book
+# Read: Class 4 : Data Modeling
+
 - - -
-## Chapter 4: Links  
 
-links can be created using the &lt;a> element,  inside the opining tag href include the link it self and the name of the linke inside the tag 
+## Review, Research, and Discussion
 
-### links types (usage): 
+* **name 3 advantages to Test Driven Development**
+
+Better program design and higher code quality   
+Detailed project documentation   
+TDD reduces the time required for project development   
+Code flexibility and easier maintenance   
+With TDD you will get a reliable solution   
+Save project costs in the long run   
+
+
+* **In what case would you need to use beforeEach() or afterEach() in a test suite?**
+
+**beforeEach** Runs a function before each of the tests in this file runs. If the function returns a promise or is a generator, Jest waits for that promise to resolve before running the test.This is often useful if you want to reset some global state that will be used by many tests.    
  
-* Links from one website to another(absolute URL)  
+**afterEach** Runs a function after each one of the tests in this file completes. If the function returns a promise or is a generator, Jest waits for that promise to resolve before continuing.This is often useful if you want to clean up some temporary state that is created by each test.
 
-* Links from one page to another on the same website(relative URL.)     
- 
-They provide a shorthand way of telling the browser where to
-find your files   
-1- Same Folder : To link to a file in the same folder, just use the file
-name. (Nothing else is needed.)  
-2- Child Folder : For a child folder, use the name of the child folder,
-followed by a forward slash, then the file name    
-4- Parent Folder : ../    
-5- GrandParent Folder: ../../     
 
-* Links from one part of a web page to another part of the same page   
-  
-identify the points in the page that the link will go to. You do this using the id attribute (which can be used on every HTML element).
+* **What is one downside of Test Driven Development**
+The test suite itself has to be maintained; tests may not be completely deterministic (i.e. reliant on external dependencies).
+The tests may be hard to write, esp. beyond the unit testing level.
 
-* Links that open in a new browser window   
-use the target attribute on the opening &lt;a> tag. The value of this attribute should be _blank.   
+* **What’s the primary difference between ES6 Classes and Constructor/Prototype Classes?**
 
-* Links that start up your email program and address a new email to someone   
-use the <a> element. the value of the href attribute starts with mailto: and is followed by the email address to be sent to.  
+In simple words class is a blueprint for creating an object and constructor is special kind of a method that creates objects.
+
+
+* **Why REST?**
+
+REST APIs is that they provide a great deal of flexibility. Data is not tied to resources or methods, so REST can handle multiple types of calls, return different data formats and even change structurally with the correct implementation of hypermedia.
+
+- - -
+
+#### Document the following Vocabulary Terms
+
+* **functional programming** In computer science, functional programming is a programming paradigm where programs are constructed by applying and composing functions
+
+* **object-oriented programming (OOP)** Object-oriented programming is a programming paradigm based on the concept of "objects", which can contain data and code: data in the form of fields, and code, in the form of procedures. A feature of objects is that an object's own procedures can access and often modify the data fields of itself    
+
+* **class** In object-oriented programming, a class is an extensible program-code-template for creating objects, providing initial values for state (member variables) and implementations of behavior (member functions or methods)
+
+* **super** super() will calls the constructor of its parent class. This is required when you need to access some variables from the parent class. In React, when you call super with props. React will make props available across the component through this.props .
+
+* **this** keyword that represents the current instance of the class in which it appears. It is used to access class variables and methods
+
+* **Test Driven Development (TDD)** “Test-driven development” refers to a style of programming in which three activities are tightly interwoven: coding, testing (in the form of writing unit tests) and design (in the form of refactoring).
+
+* **Jest**  an open source project maintained by Facebook, and it's especially well suited for React code testing, although not limited to that: it can test any JavaScript code
+
+* **Continuous Integration (CI)** Continuous integration (CI) is a software engineering practice where members of a team integrate their work with increasing frequency. ... Continuous delivery (CD) is to packaging and deployment what CI is to build and test.
+
+* **REST** Representational state transfer is a software architectural style that was created to guide the design and development of the architecture for the World Wide Web. REST defines a set of constraints for how the architecture of an Internet-scale distributed hypermedia system, such as the Web, should behave
+
+* **Data Model** A data model (or datamodel) is an abstract model that organizes elements of data and standardizes how they relate to one another and to the properties of real-world entities. ... So the "data model" of a banking application may be defined using the entity-relationship "data model".
 
 - - - 
 
-## Chapter 15: Layout
+## Article : sql vs nosql 
 
-##### Building Blocks 
-* Block-level elements start on a new line examples &lt;h1> &lt;p> &lt;ul> &lt;li> 
-* Inline elements : flow in between surrounding text examples &lt;img> &lt;b> &lt;i>
+| SQL                                 | NoSQL                                           |
+| --------------                      |----------------------------------------         |
+| Relational Databases (RDBMS)        | distributed database.                           |
+| table based databases               | document based                                  |
+| predefined schema                   | dynamic schema                                  |
+| vertically scalable                 | horizontally scalable                           |
+| uses SQL                            | queries are focused on collection of documents. |
+| either open-source or close-sourced | graph databases, key-value store databases      |
+|Excellent support are available      | you still have to rely on community support     |
+### SQL Database Examples
 
-##### Containing Elements
- If one block-level element sits inside another block-level element then the outer box is known as the containing or parent element.
+* MySQL Community Edition
+* MS-SQL Server Express Edition 
+* Oracle Express Edition
 
-### positioning schemes
+### NoSQL Database Examples
 
-* Normal flow  
-Every block-level element appears on a new line, causing each item to appear lower down the page than the previous one.  
+* MongoDB
+* CouchDB
+* Redis
 
-* Relative Positioning  
-This moves an element from the position it would be in normal flow, shifting it to the top, right,bottom, or left of where it would have been placed.   
+--- 
 
-* Absolute positioning
+## Article : nosql modeling techniques
 
-This positions the element in relation to its containing element. It is taken out of normal flow, meaning that it does not affect the position   
+**NoSQL** databases are often compared by various non-functional criteria, such as scalability, performance, and consistency.    
 
-* Fixed Positioning
+**SQL** and relational model in general were designed long time ago to interact with the end user. This user-oriented nature had vast implications:
+- The end user is often interested in aggregated reporting information, not in separate data items, and SQL pays a lot of attention to this aspect.
+- No one can expect human users to explicitly control concurrency, integrity, consistency, or data type validity. That’s why SQL pays a lot of attention to transactional guaranties, schemas, and referential integrity
 
-This is a form of absolute positioning that positions the element in relation to the browser window ,Browsers display pages in normal flow unless you specify    
+And this was where a new evolution of data models began:
 
-* Floating Elements
-this allows us to take that element out of normal flow and position it to the far left or right of a containing box  
+- Key-Value storage is a very simplistic, but very powerful model. Many techniques that are described below are perfectly applicable to this model.
 
+- Ordered Key-Value model is very powerful, but it does not provide any framework for value modeling.
+- Document databases advance the BigTable model offering two significant improvements. 
+- Graph data models can be considered as a side branch of evolution that origins from the Ordered Key-Value models. Graph databases allow one model business entities very transparently (this depends on that), but hierarchical modeling techniques make other data models very competitive in this area too. 
 
-### Screen Sizes and Resolutions  
-Different users will have different sized screens that show different amounts of information, so the design needs to be able to work on a range of different sized screens. with diffrenet resolutions  
+### Conceptual Techniques
 
-designers often try to create pages of around 960-1000 pixels wide
+* Denormalization 
 
-***Fixed width layout designs*** do not change size as the user increases     ***Liquid layout designs*** stretch and contract as the user increases or decreases the size of their browser window. They tend to use percentages.     
+* Aggregates
 
-***CSS frameworks*** provide the code for common tasks, such as creating layout grids,styling forms, creating printer-friendly versions of pages and so on.  
-***Grids*** help create professional and flexible designs. 
+* Application Side Joins
 
-- - -
-#### From the Duckett JS book:
+* Atomic Aggregates
+
+* Enumerable Keys
+
+* Dimensionality Reduction
+
+* Index Table
+
+* Composite Key Index
+
+* Aggregation with Composite Keys
+
+* Inverted Search – Direct Aggregation
+
+* Tree Aggregation
+
+* Adjacency Lists
+
+* Materialized Paths
+
+* Nested Sets
+
+* Batch Graph Processing
+
 - - - 
-## Chapter 3: Functions, Methods, and Objects (pp.86-99)
-
-### functions 
-Functions let you group a series of statements together to perform a specific task.
-we need to declare a function we then call the function   
-***declaration***    
-*function itsName(parameters){   
-the code block 
-return the parameters
- }   
-
-***calling***
-itsName();   
-
-- - -
-## Article: 6 Reasons for Pair Programming
-
-***Pair programming*** is a technique in which two programmers work together at one workstation.
-the Driver(the one who writes the code ) and the Navigator(reviews each line of code as it is typed in). 
-
-### Why to use this technique ?
-* efficiency 
-* this experience is more engaging and both programmers are more focused 
-* expose developers to techniques they otherwise would not have thought of.
-* improve social skills( communication )
-* Work environment and Job interview readiness
-
-
-
