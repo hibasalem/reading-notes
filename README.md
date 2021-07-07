@@ -79,7 +79,7 @@
 | Read 07 | [Bearer Authorization](401/read07.md)         |
 | Read 08 | [Access Control (ACL)](401/read08.md)         |
 | Read 09 | [SQL](401/read09.md)                          |
-| Read 10 | [---](401/read10.md)                          |
+| Read 10 | [Stacks and Queues](401/read10.md)            |
 | Read 11 | [Event Driven Applications](401/read11.md)    |
 | Read 12 | [Socket.io](401/read12.md)                    |
 | Read 13 | [Message Queues](401/read13.md)               |
