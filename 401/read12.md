@@ -1,9 +1,5 @@
 # Read: Class 12 : Socket.io
 
----
-
-# Read: Class 12 : Socket.io
-
 - - -
 
 ## Review, Research, and Discussion
