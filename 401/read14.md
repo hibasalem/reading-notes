@@ -1,4 +1,4 @@
-# Read: Class 13 : Readings: Event Driven Architecture
+# Read: Class 14 : Readings: Event Driven Architecture
 
 - - -
 
