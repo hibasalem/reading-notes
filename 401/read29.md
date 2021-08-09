@@ -1,4 +1,4 @@
-# Read: Class 28 : Advanced State with Reducers
+# Read: Class 29 : Advanced State with Reducers
 
 ---
 
