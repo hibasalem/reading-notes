@@ -94,7 +94,7 @@
 | Read 28 | [Component Lifecycle](401/read28.md)          |
 | Read 29 | [Advanced State with Reducers](401/read29.md) |
 | Read 30 | [Hash Tables](401/read30.md)                  |
-| Read 31 | [Hooks API](401/read31.md)                    |
+| Read 31 | [context API](401/read31.md)                  |
 | Read 32 | [Custom Hooks](401/read32.md)                 |
 | Read 33 | [Context API](401/read33.md)                  |
 | Read 34 | [<Login /> and <Auth />](401/read34.md)       |
