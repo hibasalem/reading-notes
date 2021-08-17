@@ -1,8 +1,4 @@
-# Read: Class 33 : Context API
-
----
-
-# Read: Class 33 : <Login /> and <Auth />
+# Read: Class 33 : `<Login /> `and `<Auth />`
 
 ---
 
