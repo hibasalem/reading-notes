@@ -96,7 +96,7 @@
 | Read 30 | [Hash Tables](401/read30.md)                  |
 | Read 31 | [context API](401/read31.md)                  |
 | Read 32 | [Context API - Behaviors](401/read32.md)      |
-| Read 33 | [Context API](401/read33.md)                  |
+| Read 33 | [`<Login />` and `<Auth />`](401/read34.md)   |
 | Read 34 | [<Login /> and <Auth />](401/read34.md)       |
 | Read 36 | [Application State with Redux](401/read36.md) |
 | Read 37 | [Redux - Combined Reducers](401/read37.md)    |
