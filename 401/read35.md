@@ -55,6 +55,7 @@ A cycle is defined as a path of a positive length that starts and ends at the sa
 
 We represent graphs through:
 
+
 - **_Adjacency Matrix_** An Adjacency matrix is represented through a 2-dimensional array. If there are n vertices, then we are looking at an n x n Boolean matrix
 
 - **_Adjacency List_** An adjacency list is the most common way to represent graphs.An adjacency list is a collection of linked lists or array that lists all of the other vertices that are connected.Adjacency lists make it easy to view if one vertices connects to another.
