@@ -98,6 +98,7 @@
 | Read 32 | [Context API - Behaviors](401/read32.md)      |
 | Read 33 | [`<Login />` and `<Auth />`](401/read34.md)   |
 | Read 34 | [API Integration](401/read34.md)              |
+| Read 35 | [Graphs](401/read35.md)                       |
 | Read 36 | [Application State with Redux](401/read36.md) |
 | Read 37 | [Redux - Combined Reducers](401/read37.md)    |
 | Read 38 | [Redux - Asynchronous Actions](401/read38.md) |
